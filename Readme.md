@@ -31,7 +31,6 @@ private void loadImages() {
     head = iih.getImage();
 }
 In the loadImages() method we get the images for the game. The ImageIcon class is used for displaying PNG images.
-
 private void initGame() {
 
      dots = 3;
@@ -47,12 +46,10 @@ private void initGame() {
     timer.start();
 }
 In the initGame() method we create the snake, randomly locate an apple on the board, and start the timer.
-
 private void checkApple() {
 
     if ((x[0] == apple_x) && (y[0] == apple_y)) {
-
-        dots++;
+         dots++;
         locateApple();
     }
 }
