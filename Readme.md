@@ -78,3 +78,20 @@ for (int z = dots; z > 0; z--) {
     if ((z > 4) && (x[0] == x[z]) && (y[0] == y[z])) {
         inGame = false;
     }
+}
+If the snake hits one of its joints with its head the game is over.
+
+if (y[0] >= B_HEIGHT) {
+    inGame = false;
+}
+This is the main class.
+
+setResizable(false);
+pack();
+The setResizable() method affects the insets of the JFrame container on some platforms. Therefore, it is important to call it before the pack() method. Otherwise, the collision of the snake's head with the right and bottom borders might not work correctly.
+
+
+![Snake game screenshot](snake.png)
+Figure: Snake
+This was the Snake game in Java.
+
