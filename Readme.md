@@ -90,4 +90,8 @@ setResizable(false);
 pack();
 The setResizable() method affects the insets of the JFrame container on some platforms. Therefore, it is important to call it before the pack() method. Otherwise, the collision of the snake's head with the right and bottom borders might not work correctly.
 
+![Snake game screenshot](snake.png)
+Figure: Snake
+This was the Snake game in Java.
+
 
