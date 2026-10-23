@@ -216,5 +216,15 @@ private class TAdapter extends KeyAdapter {
                 upDirection = false;
                 downDirection = false;
             }
+             if ((key == KeyEvent.VK_RIGHT) && (!leftDirection)) {
+                rightDirection = true;
+                upDirection = false;
+                downDirection = false;
+            }
+
+          
+  
+
+
 
          
